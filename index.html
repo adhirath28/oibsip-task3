@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="background">
+        <div class="container">
+            <h1>Temperature Converter</h1>
+            <div class="converter">
+                <input type="number" id="inputTemp" placeholder="Enter temperature">
+              <h6>Please select the unit you'd like to convert :)</h6>
+                <select id="inputUnit">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+                <button onclick="convertTemperature()">Convert</button>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <span>
+            <p> Copyright &copy; 2024 | All Rights Reserved | Developed by Nikunj Talpada</p>
+        </span>
+
+    </footer>
+</body>
+</html>
